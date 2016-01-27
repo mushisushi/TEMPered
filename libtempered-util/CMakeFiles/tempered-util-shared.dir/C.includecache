@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/downloads/TEMPered/libtempered-util/calibration.c
+stdlib.h
+-
+errno.h
+-
+stdio.h
+-
+stdbool.h
+-
+string.h
+-
+math.h
+-
+
+/home/downloads/TEMPered/libtempered-util/dew-point.c
+math.h
+-
+
+/home/downloads/TEMPered/libtempered-util/temp-scale.c
+unistd.h
+-
+string.h
+-
+strings.h
+-
+tempered-util.h
+/home/downloads/TEMPered/libtempered-util/tempered-util.h
+
+/home/downloads/TEMPered/libtempered-util/tempered-util.h
+stdbool.h
+-
+

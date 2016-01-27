@@ -114,14 +114,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/downloads/TEMPered/CMakeFiles /home/downloads/TEMPered/CMakeFiles/progress.marks
-	$(MAKE) -f CMakeFiles/Makefile2 all
+	cd /home/downloads/TEMPered && $(CMAKE_COMMAND) -E cmake_progress_start /home/downloads/TEMPered/CMakeFiles /home/downloads/TEMPered/utils/CMakeFiles/progress.marks
+	cd /home/downloads/TEMPered && $(MAKE) -f CMakeFiles/Makefile2 utils/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/downloads/TEMPered/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) -f CMakeFiles/Makefile2 clean
+	cd /home/downloads/TEMPered && $(MAKE) -f CMakeFiles/Makefile2 utils/clean
 .PHONY : clean
 
 # The main clean target
@@ -130,109 +130,94 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd /home/downloads/TEMPered && $(MAKE) -f CMakeFiles/Makefile2 utils/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd /home/downloads/TEMPered && $(MAKE) -f CMakeFiles/Makefile2 utils/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/downloads/TEMPered && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named tempered-shared
+# Convenience name for target.
+utils/CMakeFiles/hid-query.dir/rule:
+	cd /home/downloads/TEMPered && $(MAKE) -f CMakeFiles/Makefile2 utils/CMakeFiles/hid-query.dir/rule
+.PHONY : utils/CMakeFiles/hid-query.dir/rule
 
-# Build rule for target.
-tempered-shared: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tempered-shared
-.PHONY : tempered-shared
-
-# fast build rule for target.
-tempered-shared/fast:
-	$(MAKE) -f libtempered/CMakeFiles/tempered-shared.dir/build.make libtempered/CMakeFiles/tempered-shared.dir/build
-.PHONY : tempered-shared/fast
-
-#=============================================================================
-# Target rules for targets named tempered-util-shared
-
-# Build rule for target.
-tempered-util-shared: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tempered-util-shared
-.PHONY : tempered-util-shared
-
-# fast build rule for target.
-tempered-util-shared/fast:
-	$(MAKE) -f libtempered-util/CMakeFiles/tempered-util-shared.dir/build.make libtempered-util/CMakeFiles/tempered-util-shared.dir/build
-.PHONY : tempered-util-shared/fast
-
-#=============================================================================
-# Target rules for targets named hid-query
-
-# Build rule for target.
-hid-query: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 hid-query
+# Convenience name for target.
+hid-query: utils/CMakeFiles/hid-query.dir/rule
 .PHONY : hid-query
 
 # fast build rule for target.
 hid-query/fast:
-	$(MAKE) -f utils/CMakeFiles/hid-query.dir/build.make utils/CMakeFiles/hid-query.dir/build
+	cd /home/downloads/TEMPered && $(MAKE) -f utils/CMakeFiles/hid-query.dir/build.make utils/CMakeFiles/hid-query.dir/build
 .PHONY : hid-query/fast
 
-#=============================================================================
-# Target rules for targets named tempered-exe
+# Convenience name for target.
+utils/CMakeFiles/tempered-exe.dir/rule:
+	cd /home/downloads/TEMPered && $(MAKE) -f CMakeFiles/Makefile2 utils/CMakeFiles/tempered-exe.dir/rule
+.PHONY : utils/CMakeFiles/tempered-exe.dir/rule
 
-# Build rule for target.
-tempered-exe: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tempered-exe
+# Convenience name for target.
+tempered-exe: utils/CMakeFiles/tempered-exe.dir/rule
 .PHONY : tempered-exe
 
 # fast build rule for target.
 tempered-exe/fast:
-	$(MAKE) -f utils/CMakeFiles/tempered-exe.dir/build.make utils/CMakeFiles/tempered-exe.dir/build
+	cd /home/downloads/TEMPered && $(MAKE) -f utils/CMakeFiles/tempered-exe.dir/build.make utils/CMakeFiles/tempered-exe.dir/build
 .PHONY : tempered-exe/fast
 
-#=============================================================================
-# Target rules for targets named enumerate
+hid-query.o: hid-query.c.o
+.PHONY : hid-query.o
 
-# Build rule for target.
-enumerate: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 enumerate
-.PHONY : enumerate
+# target to build an object file
+hid-query.c.o:
+	cd /home/downloads/TEMPered && $(MAKE) -f utils/CMakeFiles/hid-query.dir/build.make utils/CMakeFiles/hid-query.dir/hid-query.c.o
+.PHONY : hid-query.c.o
 
-# fast build rule for target.
-enumerate/fast:
-	$(MAKE) -f examples/CMakeFiles/enumerate.dir/build.make examples/CMakeFiles/enumerate.dir/build
-.PHONY : enumerate/fast
+hid-query.i: hid-query.c.i
+.PHONY : hid-query.i
 
-#=============================================================================
-# Target rules for targets named read-all
+# target to preprocess a source file
+hid-query.c.i:
+	cd /home/downloads/TEMPered && $(MAKE) -f utils/CMakeFiles/hid-query.dir/build.make utils/CMakeFiles/hid-query.dir/hid-query.c.i
+.PHONY : hid-query.c.i
 
-# Build rule for target.
-read-all: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 read-all
-.PHONY : read-all
+hid-query.s: hid-query.c.s
+.PHONY : hid-query.s
 
-# fast build rule for target.
-read-all/fast:
-	$(MAKE) -f examples/CMakeFiles/read-all.dir/build.make examples/CMakeFiles/read-all.dir/build
-.PHONY : read-all/fast
+# target to generate assembly for a file
+hid-query.c.s:
+	cd /home/downloads/TEMPered && $(MAKE) -f utils/CMakeFiles/hid-query.dir/build.make utils/CMakeFiles/hid-query.dir/hid-query.c.s
+.PHONY : hid-query.c.s
 
-#=============================================================================
-# Target rules for targets named read-repeat
+tempered.o: tempered.c.o
+.PHONY : tempered.o
 
-# Build rule for target.
-read-repeat: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 read-repeat
-.PHONY : read-repeat
+# target to build an object file
+tempered.c.o:
+	cd /home/downloads/TEMPered && $(MAKE) -f utils/CMakeFiles/tempered-exe.dir/build.make utils/CMakeFiles/tempered-exe.dir/tempered.c.o
+.PHONY : tempered.c.o
 
-# fast build rule for target.
-read-repeat/fast:
-	$(MAKE) -f examples/CMakeFiles/read-repeat.dir/build.make examples/CMakeFiles/read-repeat.dir/build
-.PHONY : read-repeat/fast
+tempered.i: tempered.c.i
+.PHONY : tempered.i
+
+# target to preprocess a source file
+tempered.c.i:
+	cd /home/downloads/TEMPered && $(MAKE) -f utils/CMakeFiles/tempered-exe.dir/build.make utils/CMakeFiles/tempered-exe.dir/tempered.c.i
+.PHONY : tempered.c.i
+
+tempered.s: tempered.c.s
+.PHONY : tempered.s
+
+# target to generate assembly for a file
+tempered.c.s:
+	cd /home/downloads/TEMPered && $(MAKE) -f utils/CMakeFiles/tempered-exe.dir/build.make utils/CMakeFiles/tempered-exe.dir/tempered.c.s
+.PHONY : tempered.c.s
 
 # Help Target
 help:
@@ -241,18 +226,19 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... hid-query"
 	@echo "... install"
 	@echo "... install/local"
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... tempered-shared"
-	@echo "... tempered-util-shared"
-	@echo "... hid-query"
 	@echo "... tempered-exe"
-	@echo "... enumerate"
-	@echo "... read-all"
-	@echo "... read-repeat"
+	@echo "... hid-query.o"
+	@echo "... hid-query.i"
+	@echo "... hid-query.s"
+	@echo "... tempered.o"
+	@echo "... tempered.i"
+	@echo "... tempered.s"
 .PHONY : help
 
 
@@ -264,6 +250,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/downloads/TEMPered && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

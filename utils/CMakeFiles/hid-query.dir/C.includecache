@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/downloads/TEMPered/utils/hid-query.c
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+hidapi.h
+-
+
+/usr/local/include/hidapi/hidapi.h
+wchar.h
+-
+

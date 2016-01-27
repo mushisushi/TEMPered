@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/downloads/TEMPered/examples/enumerate.c
+stdlib.h
+-
+stdio.h
+-
+tempered.h
+-
+
+examples/../libtempered/tempered.h
+stdbool.h
+-
+

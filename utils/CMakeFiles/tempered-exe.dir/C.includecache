@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/downloads/TEMPered/utils/tempered.c
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+tempered.h
+-
+getopt.h
+-
+tempered-util.h
+-
+
+utils/../libtempered-util/tempered-util.h
+stdbool.h
+-
+
+utils/../libtempered/tempered.h
+stdbool.h
+-
+

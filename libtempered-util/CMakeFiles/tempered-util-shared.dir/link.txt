@@ -1,0 +1,1 @@
+/usr/bin/cc  -fPIC   -std=gnu99 -Wall -pedantic -Wextra   -shared -Wl,-soname,libtempered-util.so.0 -o libtempered-util.so.0 CMakeFiles/tempered-util-shared.dir/calibration.c.o CMakeFiles/tempered-util-shared.dir/dew-point.c.o CMakeFiles/tempered-util-shared.dir/temp-scale.c.o -lm 
