@@ -46,7 +46,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/downloads/TEMPered
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/downloads/TEMPered
+CMAKE_BINARY_DIR = /opt/PCsensor/TEMPered
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -114,9 +114,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/downloads/TEMPered/CMakeFiles /home/downloads/TEMPered/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /opt/PCsensor/TEMPered/CMakeFiles /opt/PCsensor/TEMPered/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/downloads/TEMPered/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /opt/PCsensor/TEMPered/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

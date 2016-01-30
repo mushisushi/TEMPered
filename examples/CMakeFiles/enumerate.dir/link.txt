@@ -1,1 +1,1 @@
-/usr/bin/cc    -std=gnu99 -Wall -pedantic -Wextra    CMakeFiles/enumerate.dir/enumerate.c.o  -o enumerate -rdynamic ../libtempered/libtempered.so.0 /usr/local/lib/libhidapi-hidraw.so -Wl,-rpath,/home/downloads/TEMPered/libtempered:/usr/local/lib 
+/usr/bin/cc    -std=gnu99 -Wall -pedantic -Wextra    CMakeFiles/enumerate.dir/enumerate.c.o  -o enumerate -rdynamic ../libtempered/libtempered.so.0 /usr/local/lib/libhidapi-hidraw.so -Wl,-rpath,/opt/PCsensor/TEMPered/libtempered:/usr/local/lib 

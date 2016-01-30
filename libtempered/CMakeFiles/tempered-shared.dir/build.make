@@ -38,7 +38,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/downloads/TEMPered
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/downloads/TEMPered
+CMAKE_BINARY_DIR = /opt/PCsensor/TEMPered
 
 # Include any dependencies generated for this target.
 include libtempered/CMakeFiles/tempered-shared.dir/depend.make
@@ -50,18 +50,18 @@ include libtempered/CMakeFiles/tempered-shared.dir/progress.make
 include libtempered/CMakeFiles/tempered-shared.dir/flags.make
 
 libtempered/CMakeFiles/tempered-shared.dir/core.c.o: libtempered/CMakeFiles/tempered-shared.dir/flags.make
-libtempered/CMakeFiles/tempered-shared.dir/core.c.o: libtempered/core.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/downloads/TEMPered/CMakeFiles $(CMAKE_PROGRESS_1)
+libtempered/CMakeFiles/tempered-shared.dir/core.c.o: /home/downloads/TEMPered/libtempered/core.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /opt/PCsensor/TEMPered/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object libtempered/CMakeFiles/tempered-shared.dir/core.c.o"
-	cd /home/downloads/TEMPered/libtempered && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/tempered-shared.dir/core.c.o   -c /home/downloads/TEMPered/libtempered/core.c
+	cd /opt/PCsensor/TEMPered/libtempered && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/tempered-shared.dir/core.c.o   -c /home/downloads/TEMPered/libtempered/core.c
 
 libtempered/CMakeFiles/tempered-shared.dir/core.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tempered-shared.dir/core.c.i"
-	cd /home/downloads/TEMPered/libtempered && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/downloads/TEMPered/libtempered/core.c > CMakeFiles/tempered-shared.dir/core.c.i
+	cd /opt/PCsensor/TEMPered/libtempered && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/downloads/TEMPered/libtempered/core.c > CMakeFiles/tempered-shared.dir/core.c.i
 
 libtempered/CMakeFiles/tempered-shared.dir/core.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tempered-shared.dir/core.c.s"
-	cd /home/downloads/TEMPered/libtempered && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/downloads/TEMPered/libtempered/core.c -o CMakeFiles/tempered-shared.dir/core.c.s
+	cd /opt/PCsensor/TEMPered/libtempered && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/downloads/TEMPered/libtempered/core.c -o CMakeFiles/tempered-shared.dir/core.c.s
 
 libtempered/CMakeFiles/tempered-shared.dir/core.c.o.requires:
 .PHONY : libtempered/CMakeFiles/tempered-shared.dir/core.c.o.requires
@@ -73,18 +73,18 @@ libtempered/CMakeFiles/tempered-shared.dir/core.c.o.provides: libtempered/CMakeF
 libtempered/CMakeFiles/tempered-shared.dir/core.c.o.provides.build: libtempered/CMakeFiles/tempered-shared.dir/core.c.o
 
 libtempered/CMakeFiles/tempered-shared.dir/temper_type.c.o: libtempered/CMakeFiles/tempered-shared.dir/flags.make
-libtempered/CMakeFiles/tempered-shared.dir/temper_type.c.o: libtempered/temper_type.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/downloads/TEMPered/CMakeFiles $(CMAKE_PROGRESS_2)
+libtempered/CMakeFiles/tempered-shared.dir/temper_type.c.o: /home/downloads/TEMPered/libtempered/temper_type.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /opt/PCsensor/TEMPered/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object libtempered/CMakeFiles/tempered-shared.dir/temper_type.c.o"
-	cd /home/downloads/TEMPered/libtempered && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/tempered-shared.dir/temper_type.c.o   -c /home/downloads/TEMPered/libtempered/temper_type.c
+	cd /opt/PCsensor/TEMPered/libtempered && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/tempered-shared.dir/temper_type.c.o   -c /home/downloads/TEMPered/libtempered/temper_type.c
 
 libtempered/CMakeFiles/tempered-shared.dir/temper_type.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tempered-shared.dir/temper_type.c.i"
-	cd /home/downloads/TEMPered/libtempered && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/downloads/TEMPered/libtempered/temper_type.c > CMakeFiles/tempered-shared.dir/temper_type.c.i
+	cd /opt/PCsensor/TEMPered/libtempered && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/downloads/TEMPered/libtempered/temper_type.c > CMakeFiles/tempered-shared.dir/temper_type.c.i
 
 libtempered/CMakeFiles/tempered-shared.dir/temper_type.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tempered-shared.dir/temper_type.c.s"
-	cd /home/downloads/TEMPered/libtempered && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/downloads/TEMPered/libtempered/temper_type.c -o CMakeFiles/tempered-shared.dir/temper_type.c.s
+	cd /opt/PCsensor/TEMPered/libtempered && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/downloads/TEMPered/libtempered/temper_type.c -o CMakeFiles/tempered-shared.dir/temper_type.c.s
 
 libtempered/CMakeFiles/tempered-shared.dir/temper_type.c.o.requires:
 .PHONY : libtempered/CMakeFiles/tempered-shared.dir/temper_type.c.o.requires
@@ -96,18 +96,18 @@ libtempered/CMakeFiles/tempered-shared.dir/temper_type.c.o.provides: libtempered
 libtempered/CMakeFiles/tempered-shared.dir/temper_type.c.o.provides.build: libtempered/CMakeFiles/tempered-shared.dir/temper_type.c.o
 
 libtempered/CMakeFiles/tempered-shared.dir/type_hid/sht1x.c.o: libtempered/CMakeFiles/tempered-shared.dir/flags.make
-libtempered/CMakeFiles/tempered-shared.dir/type_hid/sht1x.c.o: libtempered/type_hid/sht1x.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/downloads/TEMPered/CMakeFiles $(CMAKE_PROGRESS_3)
+libtempered/CMakeFiles/tempered-shared.dir/type_hid/sht1x.c.o: /home/downloads/TEMPered/libtempered/type_hid/sht1x.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /opt/PCsensor/TEMPered/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object libtempered/CMakeFiles/tempered-shared.dir/type_hid/sht1x.c.o"
-	cd /home/downloads/TEMPered/libtempered && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/tempered-shared.dir/type_hid/sht1x.c.o   -c /home/downloads/TEMPered/libtempered/type_hid/sht1x.c
+	cd /opt/PCsensor/TEMPered/libtempered && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/tempered-shared.dir/type_hid/sht1x.c.o   -c /home/downloads/TEMPered/libtempered/type_hid/sht1x.c
 
 libtempered/CMakeFiles/tempered-shared.dir/type_hid/sht1x.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tempered-shared.dir/type_hid/sht1x.c.i"
-	cd /home/downloads/TEMPered/libtempered && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/downloads/TEMPered/libtempered/type_hid/sht1x.c > CMakeFiles/tempered-shared.dir/type_hid/sht1x.c.i
+	cd /opt/PCsensor/TEMPered/libtempered && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/downloads/TEMPered/libtempered/type_hid/sht1x.c > CMakeFiles/tempered-shared.dir/type_hid/sht1x.c.i
 
 libtempered/CMakeFiles/tempered-shared.dir/type_hid/sht1x.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tempered-shared.dir/type_hid/sht1x.c.s"
-	cd /home/downloads/TEMPered/libtempered && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/downloads/TEMPered/libtempered/type_hid/sht1x.c -o CMakeFiles/tempered-shared.dir/type_hid/sht1x.c.s
+	cd /opt/PCsensor/TEMPered/libtempered && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/downloads/TEMPered/libtempered/type_hid/sht1x.c -o CMakeFiles/tempered-shared.dir/type_hid/sht1x.c.s
 
 libtempered/CMakeFiles/tempered-shared.dir/type_hid/sht1x.c.o.requires:
 .PHONY : libtempered/CMakeFiles/tempered-shared.dir/type_hid/sht1x.c.o.requires
@@ -119,18 +119,18 @@ libtempered/CMakeFiles/tempered-shared.dir/type_hid/sht1x.c.o.provides: libtempe
 libtempered/CMakeFiles/tempered-shared.dir/type_hid/sht1x.c.o.provides.build: libtempered/CMakeFiles/tempered-shared.dir/type_hid/sht1x.c.o
 
 libtempered/CMakeFiles/tempered-shared.dir/type_hid/common.c.o: libtempered/CMakeFiles/tempered-shared.dir/flags.make
-libtempered/CMakeFiles/tempered-shared.dir/type_hid/common.c.o: libtempered/type_hid/common.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/downloads/TEMPered/CMakeFiles $(CMAKE_PROGRESS_4)
+libtempered/CMakeFiles/tempered-shared.dir/type_hid/common.c.o: /home/downloads/TEMPered/libtempered/type_hid/common.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /opt/PCsensor/TEMPered/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object libtempered/CMakeFiles/tempered-shared.dir/type_hid/common.c.o"
-	cd /home/downloads/TEMPered/libtempered && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/tempered-shared.dir/type_hid/common.c.o   -c /home/downloads/TEMPered/libtempered/type_hid/common.c
+	cd /opt/PCsensor/TEMPered/libtempered && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/tempered-shared.dir/type_hid/common.c.o   -c /home/downloads/TEMPered/libtempered/type_hid/common.c
 
 libtempered/CMakeFiles/tempered-shared.dir/type_hid/common.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tempered-shared.dir/type_hid/common.c.i"
-	cd /home/downloads/TEMPered/libtempered && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/downloads/TEMPered/libtempered/type_hid/common.c > CMakeFiles/tempered-shared.dir/type_hid/common.c.i
+	cd /opt/PCsensor/TEMPered/libtempered && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/downloads/TEMPered/libtempered/type_hid/common.c > CMakeFiles/tempered-shared.dir/type_hid/common.c.i
 
 libtempered/CMakeFiles/tempered-shared.dir/type_hid/common.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tempered-shared.dir/type_hid/common.c.s"
-	cd /home/downloads/TEMPered/libtempered && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/downloads/TEMPered/libtempered/type_hid/common.c -o CMakeFiles/tempered-shared.dir/type_hid/common.c.s
+	cd /opt/PCsensor/TEMPered/libtempered && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/downloads/TEMPered/libtempered/type_hid/common.c -o CMakeFiles/tempered-shared.dir/type_hid/common.c.s
 
 libtempered/CMakeFiles/tempered-shared.dir/type_hid/common.c.o.requires:
 .PHONY : libtempered/CMakeFiles/tempered-shared.dir/type_hid/common.c.o.requires
@@ -142,18 +142,18 @@ libtempered/CMakeFiles/tempered-shared.dir/type_hid/common.c.o.provides: libtemp
 libtempered/CMakeFiles/tempered-shared.dir/type_hid/common.c.o.provides.build: libtempered/CMakeFiles/tempered-shared.dir/type_hid/common.c.o
 
 libtempered/CMakeFiles/tempered-shared.dir/type_hid/fm75.c.o: libtempered/CMakeFiles/tempered-shared.dir/flags.make
-libtempered/CMakeFiles/tempered-shared.dir/type_hid/fm75.c.o: libtempered/type_hid/fm75.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/downloads/TEMPered/CMakeFiles $(CMAKE_PROGRESS_5)
+libtempered/CMakeFiles/tempered-shared.dir/type_hid/fm75.c.o: /home/downloads/TEMPered/libtempered/type_hid/fm75.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /opt/PCsensor/TEMPered/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object libtempered/CMakeFiles/tempered-shared.dir/type_hid/fm75.c.o"
-	cd /home/downloads/TEMPered/libtempered && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/tempered-shared.dir/type_hid/fm75.c.o   -c /home/downloads/TEMPered/libtempered/type_hid/fm75.c
+	cd /opt/PCsensor/TEMPered/libtempered && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/tempered-shared.dir/type_hid/fm75.c.o   -c /home/downloads/TEMPered/libtempered/type_hid/fm75.c
 
 libtempered/CMakeFiles/tempered-shared.dir/type_hid/fm75.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tempered-shared.dir/type_hid/fm75.c.i"
-	cd /home/downloads/TEMPered/libtempered && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/downloads/TEMPered/libtempered/type_hid/fm75.c > CMakeFiles/tempered-shared.dir/type_hid/fm75.c.i
+	cd /opt/PCsensor/TEMPered/libtempered && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/downloads/TEMPered/libtempered/type_hid/fm75.c > CMakeFiles/tempered-shared.dir/type_hid/fm75.c.i
 
 libtempered/CMakeFiles/tempered-shared.dir/type_hid/fm75.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tempered-shared.dir/type_hid/fm75.c.s"
-	cd /home/downloads/TEMPered/libtempered && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/downloads/TEMPered/libtempered/type_hid/fm75.c -o CMakeFiles/tempered-shared.dir/type_hid/fm75.c.s
+	cd /opt/PCsensor/TEMPered/libtempered && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/downloads/TEMPered/libtempered/type_hid/fm75.c -o CMakeFiles/tempered-shared.dir/type_hid/fm75.c.s
 
 libtempered/CMakeFiles/tempered-shared.dir/type_hid/fm75.c.o.requires:
 .PHONY : libtempered/CMakeFiles/tempered-shared.dir/type_hid/fm75.c.o.requires
@@ -165,18 +165,18 @@ libtempered/CMakeFiles/tempered-shared.dir/type_hid/fm75.c.o.provides: libtemper
 libtempered/CMakeFiles/tempered-shared.dir/type_hid/fm75.c.o.provides.build: libtempered/CMakeFiles/tempered-shared.dir/type_hid/fm75.c.o
 
 libtempered/CMakeFiles/tempered-shared.dir/type_hid/si7005.c.o: libtempered/CMakeFiles/tempered-shared.dir/flags.make
-libtempered/CMakeFiles/tempered-shared.dir/type_hid/si7005.c.o: libtempered/type_hid/si7005.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/downloads/TEMPered/CMakeFiles $(CMAKE_PROGRESS_6)
+libtempered/CMakeFiles/tempered-shared.dir/type_hid/si7005.c.o: /home/downloads/TEMPered/libtempered/type_hid/si7005.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /opt/PCsensor/TEMPered/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object libtempered/CMakeFiles/tempered-shared.dir/type_hid/si7005.c.o"
-	cd /home/downloads/TEMPered/libtempered && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/tempered-shared.dir/type_hid/si7005.c.o   -c /home/downloads/TEMPered/libtempered/type_hid/si7005.c
+	cd /opt/PCsensor/TEMPered/libtempered && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/tempered-shared.dir/type_hid/si7005.c.o   -c /home/downloads/TEMPered/libtempered/type_hid/si7005.c
 
 libtempered/CMakeFiles/tempered-shared.dir/type_hid/si7005.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tempered-shared.dir/type_hid/si7005.c.i"
-	cd /home/downloads/TEMPered/libtempered && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/downloads/TEMPered/libtempered/type_hid/si7005.c > CMakeFiles/tempered-shared.dir/type_hid/si7005.c.i
+	cd /opt/PCsensor/TEMPered/libtempered && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/downloads/TEMPered/libtempered/type_hid/si7005.c > CMakeFiles/tempered-shared.dir/type_hid/si7005.c.i
 
 libtempered/CMakeFiles/tempered-shared.dir/type_hid/si7005.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tempered-shared.dir/type_hid/si7005.c.s"
-	cd /home/downloads/TEMPered/libtempered && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/downloads/TEMPered/libtempered/type_hid/si7005.c -o CMakeFiles/tempered-shared.dir/type_hid/si7005.c.s
+	cd /opt/PCsensor/TEMPered/libtempered && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/downloads/TEMPered/libtempered/type_hid/si7005.c -o CMakeFiles/tempered-shared.dir/type_hid/si7005.c.s
 
 libtempered/CMakeFiles/tempered-shared.dir/type_hid/si7005.c.o.requires:
 .PHONY : libtempered/CMakeFiles/tempered-shared.dir/type_hid/si7005.c.o.requires
@@ -188,18 +188,18 @@ libtempered/CMakeFiles/tempered-shared.dir/type_hid/si7005.c.o.provides: libtemp
 libtempered/CMakeFiles/tempered-shared.dir/type_hid/si7005.c.o.provides.build: libtempered/CMakeFiles/tempered-shared.dir/type_hid/si7005.c.o
 
 libtempered/CMakeFiles/tempered-shared.dir/type_hid/si7021.c.o: libtempered/CMakeFiles/tempered-shared.dir/flags.make
-libtempered/CMakeFiles/tempered-shared.dir/type_hid/si7021.c.o: libtempered/type_hid/si7021.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/downloads/TEMPered/CMakeFiles $(CMAKE_PROGRESS_7)
+libtempered/CMakeFiles/tempered-shared.dir/type_hid/si7021.c.o: /home/downloads/TEMPered/libtempered/type_hid/si7021.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /opt/PCsensor/TEMPered/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object libtempered/CMakeFiles/tempered-shared.dir/type_hid/si7021.c.o"
-	cd /home/downloads/TEMPered/libtempered && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/tempered-shared.dir/type_hid/si7021.c.o   -c /home/downloads/TEMPered/libtempered/type_hid/si7021.c
+	cd /opt/PCsensor/TEMPered/libtempered && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/tempered-shared.dir/type_hid/si7021.c.o   -c /home/downloads/TEMPered/libtempered/type_hid/si7021.c
 
 libtempered/CMakeFiles/tempered-shared.dir/type_hid/si7021.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tempered-shared.dir/type_hid/si7021.c.i"
-	cd /home/downloads/TEMPered/libtempered && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/downloads/TEMPered/libtempered/type_hid/si7021.c > CMakeFiles/tempered-shared.dir/type_hid/si7021.c.i
+	cd /opt/PCsensor/TEMPered/libtempered && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/downloads/TEMPered/libtempered/type_hid/si7021.c > CMakeFiles/tempered-shared.dir/type_hid/si7021.c.i
 
 libtempered/CMakeFiles/tempered-shared.dir/type_hid/si7021.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tempered-shared.dir/type_hid/si7021.c.s"
-	cd /home/downloads/TEMPered/libtempered && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/downloads/TEMPered/libtempered/type_hid/si7021.c -o CMakeFiles/tempered-shared.dir/type_hid/si7021.c.s
+	cd /opt/PCsensor/TEMPered/libtempered && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/downloads/TEMPered/libtempered/type_hid/si7021.c -o CMakeFiles/tempered-shared.dir/type_hid/si7021.c.s
 
 libtempered/CMakeFiles/tempered-shared.dir/type_hid/si7021.c.o.requires:
 .PHONY : libtempered/CMakeFiles/tempered-shared.dir/type_hid/si7021.c.o.requires
@@ -211,18 +211,18 @@ libtempered/CMakeFiles/tempered-shared.dir/type_hid/si7021.c.o.provides: libtemp
 libtempered/CMakeFiles/tempered-shared.dir/type_hid/si7021.c.o.provides.build: libtempered/CMakeFiles/tempered-shared.dir/type_hid/si7021.c.o
 
 libtempered/CMakeFiles/tempered-shared.dir/type_hid/si7006.c.o: libtempered/CMakeFiles/tempered-shared.dir/flags.make
-libtempered/CMakeFiles/tempered-shared.dir/type_hid/si7006.c.o: libtempered/type_hid/si7006.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/downloads/TEMPered/CMakeFiles $(CMAKE_PROGRESS_8)
+libtempered/CMakeFiles/tempered-shared.dir/type_hid/si7006.c.o: /home/downloads/TEMPered/libtempered/type_hid/si7006.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /opt/PCsensor/TEMPered/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object libtempered/CMakeFiles/tempered-shared.dir/type_hid/si7006.c.o"
-	cd /home/downloads/TEMPered/libtempered && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/tempered-shared.dir/type_hid/si7006.c.o   -c /home/downloads/TEMPered/libtempered/type_hid/si7006.c
+	cd /opt/PCsensor/TEMPered/libtempered && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/tempered-shared.dir/type_hid/si7006.c.o   -c /home/downloads/TEMPered/libtempered/type_hid/si7006.c
 
 libtempered/CMakeFiles/tempered-shared.dir/type_hid/si7006.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tempered-shared.dir/type_hid/si7006.c.i"
-	cd /home/downloads/TEMPered/libtempered && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/downloads/TEMPered/libtempered/type_hid/si7006.c > CMakeFiles/tempered-shared.dir/type_hid/si7006.c.i
+	cd /opt/PCsensor/TEMPered/libtempered && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/downloads/TEMPered/libtempered/type_hid/si7006.c > CMakeFiles/tempered-shared.dir/type_hid/si7006.c.i
 
 libtempered/CMakeFiles/tempered-shared.dir/type_hid/si7006.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tempered-shared.dir/type_hid/si7006.c.s"
-	cd /home/downloads/TEMPered/libtempered && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/downloads/TEMPered/libtempered/type_hid/si7006.c -o CMakeFiles/tempered-shared.dir/type_hid/si7006.c.s
+	cd /opt/PCsensor/TEMPered/libtempered && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/downloads/TEMPered/libtempered/type_hid/si7006.c -o CMakeFiles/tempered-shared.dir/type_hid/si7006.c.s
 
 libtempered/CMakeFiles/tempered-shared.dir/type_hid/si7006.c.o.requires:
 .PHONY : libtempered/CMakeFiles/tempered-shared.dir/type_hid/si7006.c.o.requires
@@ -234,18 +234,18 @@ libtempered/CMakeFiles/tempered-shared.dir/type_hid/si7006.c.o.provides: libtemp
 libtempered/CMakeFiles/tempered-shared.dir/type_hid/si7006.c.o.provides.build: libtempered/CMakeFiles/tempered-shared.dir/type_hid/si7006.c.o
 
 libtempered/CMakeFiles/tempered-shared.dir/type_hid/ntc.c.o: libtempered/CMakeFiles/tempered-shared.dir/flags.make
-libtempered/CMakeFiles/tempered-shared.dir/type_hid/ntc.c.o: libtempered/type_hid/ntc.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/downloads/TEMPered/CMakeFiles $(CMAKE_PROGRESS_9)
+libtempered/CMakeFiles/tempered-shared.dir/type_hid/ntc.c.o: /home/downloads/TEMPered/libtempered/type_hid/ntc.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /opt/PCsensor/TEMPered/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object libtempered/CMakeFiles/tempered-shared.dir/type_hid/ntc.c.o"
-	cd /home/downloads/TEMPered/libtempered && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/tempered-shared.dir/type_hid/ntc.c.o   -c /home/downloads/TEMPered/libtempered/type_hid/ntc.c
+	cd /opt/PCsensor/TEMPered/libtempered && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/tempered-shared.dir/type_hid/ntc.c.o   -c /home/downloads/TEMPered/libtempered/type_hid/ntc.c
 
 libtempered/CMakeFiles/tempered-shared.dir/type_hid/ntc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tempered-shared.dir/type_hid/ntc.c.i"
-	cd /home/downloads/TEMPered/libtempered && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/downloads/TEMPered/libtempered/type_hid/ntc.c > CMakeFiles/tempered-shared.dir/type_hid/ntc.c.i
+	cd /opt/PCsensor/TEMPered/libtempered && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/downloads/TEMPered/libtempered/type_hid/ntc.c > CMakeFiles/tempered-shared.dir/type_hid/ntc.c.i
 
 libtempered/CMakeFiles/tempered-shared.dir/type_hid/ntc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tempered-shared.dir/type_hid/ntc.c.s"
-	cd /home/downloads/TEMPered/libtempered && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/downloads/TEMPered/libtempered/type_hid/ntc.c -o CMakeFiles/tempered-shared.dir/type_hid/ntc.c.s
+	cd /opt/PCsensor/TEMPered/libtempered && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/downloads/TEMPered/libtempered/type_hid/ntc.c -o CMakeFiles/tempered-shared.dir/type_hid/ntc.c.s
 
 libtempered/CMakeFiles/tempered-shared.dir/type_hid/ntc.c.o.requires:
 .PHONY : libtempered/CMakeFiles/tempered-shared.dir/type_hid/ntc.c.o.requires
@@ -283,8 +283,8 @@ libtempered/libtempered.so.0: libtempered/CMakeFiles/tempered-shared.dir/type_hi
 libtempered/libtempered.so.0: libtempered/CMakeFiles/tempered-shared.dir/build.make
 libtempered/libtempered.so.0: libtempered/CMakeFiles/tempered-shared.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C shared library libtempered.so"
-	cd /home/downloads/TEMPered/libtempered && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tempered-shared.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/downloads/TEMPered/libtempered && $(CMAKE_COMMAND) -E cmake_symlink_library libtempered.so.0 libtempered.so.0 libtempered.so
+	cd /opt/PCsensor/TEMPered/libtempered && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tempered-shared.dir/link.txt --verbose=$(VERBOSE)
+	cd /opt/PCsensor/TEMPered/libtempered && $(CMAKE_COMMAND) -E cmake_symlink_library libtempered.so.0 libtempered.so.0 libtempered.so
 
 libtempered/libtempered.so: libtempered/libtempered.so.0
 
@@ -304,10 +304,10 @@ libtempered/CMakeFiles/tempered-shared.dir/requires: libtempered/CMakeFiles/temp
 .PHONY : libtempered/CMakeFiles/tempered-shared.dir/requires
 
 libtempered/CMakeFiles/tempered-shared.dir/clean:
-	cd /home/downloads/TEMPered/libtempered && $(CMAKE_COMMAND) -P CMakeFiles/tempered-shared.dir/cmake_clean.cmake
+	cd /opt/PCsensor/TEMPered/libtempered && $(CMAKE_COMMAND) -P CMakeFiles/tempered-shared.dir/cmake_clean.cmake
 .PHONY : libtempered/CMakeFiles/tempered-shared.dir/clean
 
 libtempered/CMakeFiles/tempered-shared.dir/depend:
-	cd /home/downloads/TEMPered && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/downloads/TEMPered /home/downloads/TEMPered/libtempered /home/downloads/TEMPered /home/downloads/TEMPered/libtempered /home/downloads/TEMPered/libtempered/CMakeFiles/tempered-shared.dir/DependInfo.cmake --color=$(COLOR)
+	cd /opt/PCsensor/TEMPered && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/downloads/TEMPered /home/downloads/TEMPered/libtempered /opt/PCsensor/TEMPered /opt/PCsensor/TEMPered/libtempered /opt/PCsensor/TEMPered/libtempered/CMakeFiles/tempered-shared.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : libtempered/CMakeFiles/tempered-shared.dir/depend
 

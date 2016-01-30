@@ -46,7 +46,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/downloads/TEMPered
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/downloads/TEMPered
+CMAKE_BINARY_DIR = /opt/PCsensor/TEMPered
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -114,14 +114,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/downloads/TEMPered && $(CMAKE_COMMAND) -E cmake_progress_start /home/downloads/TEMPered/CMakeFiles /home/downloads/TEMPered/libtempered/CMakeFiles/progress.marks
-	cd /home/downloads/TEMPered && $(MAKE) -f CMakeFiles/Makefile2 libtempered/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/downloads/TEMPered/CMakeFiles 0
+	cd /opt/PCsensor/TEMPered && $(CMAKE_COMMAND) -E cmake_progress_start /opt/PCsensor/TEMPered/CMakeFiles /opt/PCsensor/TEMPered/libtempered/CMakeFiles/progress.marks
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f CMakeFiles/Makefile2 libtempered/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /opt/PCsensor/TEMPered/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/downloads/TEMPered && $(MAKE) -f CMakeFiles/Makefile2 libtempered/clean
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f CMakeFiles/Makefile2 libtempered/clean
 .PHONY : clean
 
 # The main clean target
@@ -130,22 +130,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/downloads/TEMPered && $(MAKE) -f CMakeFiles/Makefile2 libtempered/preinstall
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f CMakeFiles/Makefile2 libtempered/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/downloads/TEMPered && $(MAKE) -f CMakeFiles/Makefile2 libtempered/preinstall
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f CMakeFiles/Makefile2 libtempered/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/downloads/TEMPered && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /opt/PCsensor/TEMPered && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 libtempered/CMakeFiles/tempered-shared.dir/rule:
-	cd /home/downloads/TEMPered && $(MAKE) -f CMakeFiles/Makefile2 libtempered/CMakeFiles/tempered-shared.dir/rule
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f CMakeFiles/Makefile2 libtempered/CMakeFiles/tempered-shared.dir/rule
 .PHONY : libtempered/CMakeFiles/tempered-shared.dir/rule
 
 # Convenience name for target.
@@ -154,7 +154,7 @@ tempered-shared: libtempered/CMakeFiles/tempered-shared.dir/rule
 
 # fast build rule for target.
 tempered-shared/fast:
-	cd /home/downloads/TEMPered && $(MAKE) -f libtempered/CMakeFiles/tempered-shared.dir/build.make libtempered/CMakeFiles/tempered-shared.dir/build
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f libtempered/CMakeFiles/tempered-shared.dir/build.make libtempered/CMakeFiles/tempered-shared.dir/build
 .PHONY : tempered-shared/fast
 
 core.o: core.c.o
@@ -162,7 +162,7 @@ core.o: core.c.o
 
 # target to build an object file
 core.c.o:
-	cd /home/downloads/TEMPered && $(MAKE) -f libtempered/CMakeFiles/tempered-shared.dir/build.make libtempered/CMakeFiles/tempered-shared.dir/core.c.o
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f libtempered/CMakeFiles/tempered-shared.dir/build.make libtempered/CMakeFiles/tempered-shared.dir/core.c.o
 .PHONY : core.c.o
 
 core.i: core.c.i
@@ -170,7 +170,7 @@ core.i: core.c.i
 
 # target to preprocess a source file
 core.c.i:
-	cd /home/downloads/TEMPered && $(MAKE) -f libtempered/CMakeFiles/tempered-shared.dir/build.make libtempered/CMakeFiles/tempered-shared.dir/core.c.i
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f libtempered/CMakeFiles/tempered-shared.dir/build.make libtempered/CMakeFiles/tempered-shared.dir/core.c.i
 .PHONY : core.c.i
 
 core.s: core.c.s
@@ -178,7 +178,7 @@ core.s: core.c.s
 
 # target to generate assembly for a file
 core.c.s:
-	cd /home/downloads/TEMPered && $(MAKE) -f libtempered/CMakeFiles/tempered-shared.dir/build.make libtempered/CMakeFiles/tempered-shared.dir/core.c.s
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f libtempered/CMakeFiles/tempered-shared.dir/build.make libtempered/CMakeFiles/tempered-shared.dir/core.c.s
 .PHONY : core.c.s
 
 temper_type.o: temper_type.c.o
@@ -186,7 +186,7 @@ temper_type.o: temper_type.c.o
 
 # target to build an object file
 temper_type.c.o:
-	cd /home/downloads/TEMPered && $(MAKE) -f libtempered/CMakeFiles/tempered-shared.dir/build.make libtempered/CMakeFiles/tempered-shared.dir/temper_type.c.o
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f libtempered/CMakeFiles/tempered-shared.dir/build.make libtempered/CMakeFiles/tempered-shared.dir/temper_type.c.o
 .PHONY : temper_type.c.o
 
 temper_type.i: temper_type.c.i
@@ -194,7 +194,7 @@ temper_type.i: temper_type.c.i
 
 # target to preprocess a source file
 temper_type.c.i:
-	cd /home/downloads/TEMPered && $(MAKE) -f libtempered/CMakeFiles/tempered-shared.dir/build.make libtempered/CMakeFiles/tempered-shared.dir/temper_type.c.i
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f libtempered/CMakeFiles/tempered-shared.dir/build.make libtempered/CMakeFiles/tempered-shared.dir/temper_type.c.i
 .PHONY : temper_type.c.i
 
 temper_type.s: temper_type.c.s
@@ -202,7 +202,7 @@ temper_type.s: temper_type.c.s
 
 # target to generate assembly for a file
 temper_type.c.s:
-	cd /home/downloads/TEMPered && $(MAKE) -f libtempered/CMakeFiles/tempered-shared.dir/build.make libtempered/CMakeFiles/tempered-shared.dir/temper_type.c.s
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f libtempered/CMakeFiles/tempered-shared.dir/build.make libtempered/CMakeFiles/tempered-shared.dir/temper_type.c.s
 .PHONY : temper_type.c.s
 
 type_hid/common.o: type_hid/common.c.o
@@ -210,7 +210,7 @@ type_hid/common.o: type_hid/common.c.o
 
 # target to build an object file
 type_hid/common.c.o:
-	cd /home/downloads/TEMPered && $(MAKE) -f libtempered/CMakeFiles/tempered-shared.dir/build.make libtempered/CMakeFiles/tempered-shared.dir/type_hid/common.c.o
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f libtempered/CMakeFiles/tempered-shared.dir/build.make libtempered/CMakeFiles/tempered-shared.dir/type_hid/common.c.o
 .PHONY : type_hid/common.c.o
 
 type_hid/common.i: type_hid/common.c.i
@@ -218,7 +218,7 @@ type_hid/common.i: type_hid/common.c.i
 
 # target to preprocess a source file
 type_hid/common.c.i:
-	cd /home/downloads/TEMPered && $(MAKE) -f libtempered/CMakeFiles/tempered-shared.dir/build.make libtempered/CMakeFiles/tempered-shared.dir/type_hid/common.c.i
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f libtempered/CMakeFiles/tempered-shared.dir/build.make libtempered/CMakeFiles/tempered-shared.dir/type_hid/common.c.i
 .PHONY : type_hid/common.c.i
 
 type_hid/common.s: type_hid/common.c.s
@@ -226,7 +226,7 @@ type_hid/common.s: type_hid/common.c.s
 
 # target to generate assembly for a file
 type_hid/common.c.s:
-	cd /home/downloads/TEMPered && $(MAKE) -f libtempered/CMakeFiles/tempered-shared.dir/build.make libtempered/CMakeFiles/tempered-shared.dir/type_hid/common.c.s
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f libtempered/CMakeFiles/tempered-shared.dir/build.make libtempered/CMakeFiles/tempered-shared.dir/type_hid/common.c.s
 .PHONY : type_hid/common.c.s
 
 type_hid/fm75.o: type_hid/fm75.c.o
@@ -234,7 +234,7 @@ type_hid/fm75.o: type_hid/fm75.c.o
 
 # target to build an object file
 type_hid/fm75.c.o:
-	cd /home/downloads/TEMPered && $(MAKE) -f libtempered/CMakeFiles/tempered-shared.dir/build.make libtempered/CMakeFiles/tempered-shared.dir/type_hid/fm75.c.o
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f libtempered/CMakeFiles/tempered-shared.dir/build.make libtempered/CMakeFiles/tempered-shared.dir/type_hid/fm75.c.o
 .PHONY : type_hid/fm75.c.o
 
 type_hid/fm75.i: type_hid/fm75.c.i
@@ -242,7 +242,7 @@ type_hid/fm75.i: type_hid/fm75.c.i
 
 # target to preprocess a source file
 type_hid/fm75.c.i:
-	cd /home/downloads/TEMPered && $(MAKE) -f libtempered/CMakeFiles/tempered-shared.dir/build.make libtempered/CMakeFiles/tempered-shared.dir/type_hid/fm75.c.i
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f libtempered/CMakeFiles/tempered-shared.dir/build.make libtempered/CMakeFiles/tempered-shared.dir/type_hid/fm75.c.i
 .PHONY : type_hid/fm75.c.i
 
 type_hid/fm75.s: type_hid/fm75.c.s
@@ -250,7 +250,7 @@ type_hid/fm75.s: type_hid/fm75.c.s
 
 # target to generate assembly for a file
 type_hid/fm75.c.s:
-	cd /home/downloads/TEMPered && $(MAKE) -f libtempered/CMakeFiles/tempered-shared.dir/build.make libtempered/CMakeFiles/tempered-shared.dir/type_hid/fm75.c.s
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f libtempered/CMakeFiles/tempered-shared.dir/build.make libtempered/CMakeFiles/tempered-shared.dir/type_hid/fm75.c.s
 .PHONY : type_hid/fm75.c.s
 
 type_hid/ntc.o: type_hid/ntc.c.o
@@ -258,7 +258,7 @@ type_hid/ntc.o: type_hid/ntc.c.o
 
 # target to build an object file
 type_hid/ntc.c.o:
-	cd /home/downloads/TEMPered && $(MAKE) -f libtempered/CMakeFiles/tempered-shared.dir/build.make libtempered/CMakeFiles/tempered-shared.dir/type_hid/ntc.c.o
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f libtempered/CMakeFiles/tempered-shared.dir/build.make libtempered/CMakeFiles/tempered-shared.dir/type_hid/ntc.c.o
 .PHONY : type_hid/ntc.c.o
 
 type_hid/ntc.i: type_hid/ntc.c.i
@@ -266,7 +266,7 @@ type_hid/ntc.i: type_hid/ntc.c.i
 
 # target to preprocess a source file
 type_hid/ntc.c.i:
-	cd /home/downloads/TEMPered && $(MAKE) -f libtempered/CMakeFiles/tempered-shared.dir/build.make libtempered/CMakeFiles/tempered-shared.dir/type_hid/ntc.c.i
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f libtempered/CMakeFiles/tempered-shared.dir/build.make libtempered/CMakeFiles/tempered-shared.dir/type_hid/ntc.c.i
 .PHONY : type_hid/ntc.c.i
 
 type_hid/ntc.s: type_hid/ntc.c.s
@@ -274,7 +274,7 @@ type_hid/ntc.s: type_hid/ntc.c.s
 
 # target to generate assembly for a file
 type_hid/ntc.c.s:
-	cd /home/downloads/TEMPered && $(MAKE) -f libtempered/CMakeFiles/tempered-shared.dir/build.make libtempered/CMakeFiles/tempered-shared.dir/type_hid/ntc.c.s
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f libtempered/CMakeFiles/tempered-shared.dir/build.make libtempered/CMakeFiles/tempered-shared.dir/type_hid/ntc.c.s
 .PHONY : type_hid/ntc.c.s
 
 type_hid/sht1x.o: type_hid/sht1x.c.o
@@ -282,7 +282,7 @@ type_hid/sht1x.o: type_hid/sht1x.c.o
 
 # target to build an object file
 type_hid/sht1x.c.o:
-	cd /home/downloads/TEMPered && $(MAKE) -f libtempered/CMakeFiles/tempered-shared.dir/build.make libtempered/CMakeFiles/tempered-shared.dir/type_hid/sht1x.c.o
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f libtempered/CMakeFiles/tempered-shared.dir/build.make libtempered/CMakeFiles/tempered-shared.dir/type_hid/sht1x.c.o
 .PHONY : type_hid/sht1x.c.o
 
 type_hid/sht1x.i: type_hid/sht1x.c.i
@@ -290,7 +290,7 @@ type_hid/sht1x.i: type_hid/sht1x.c.i
 
 # target to preprocess a source file
 type_hid/sht1x.c.i:
-	cd /home/downloads/TEMPered && $(MAKE) -f libtempered/CMakeFiles/tempered-shared.dir/build.make libtempered/CMakeFiles/tempered-shared.dir/type_hid/sht1x.c.i
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f libtempered/CMakeFiles/tempered-shared.dir/build.make libtempered/CMakeFiles/tempered-shared.dir/type_hid/sht1x.c.i
 .PHONY : type_hid/sht1x.c.i
 
 type_hid/sht1x.s: type_hid/sht1x.c.s
@@ -298,7 +298,7 @@ type_hid/sht1x.s: type_hid/sht1x.c.s
 
 # target to generate assembly for a file
 type_hid/sht1x.c.s:
-	cd /home/downloads/TEMPered && $(MAKE) -f libtempered/CMakeFiles/tempered-shared.dir/build.make libtempered/CMakeFiles/tempered-shared.dir/type_hid/sht1x.c.s
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f libtempered/CMakeFiles/tempered-shared.dir/build.make libtempered/CMakeFiles/tempered-shared.dir/type_hid/sht1x.c.s
 .PHONY : type_hid/sht1x.c.s
 
 type_hid/si7005.o: type_hid/si7005.c.o
@@ -306,7 +306,7 @@ type_hid/si7005.o: type_hid/si7005.c.o
 
 # target to build an object file
 type_hid/si7005.c.o:
-	cd /home/downloads/TEMPered && $(MAKE) -f libtempered/CMakeFiles/tempered-shared.dir/build.make libtempered/CMakeFiles/tempered-shared.dir/type_hid/si7005.c.o
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f libtempered/CMakeFiles/tempered-shared.dir/build.make libtempered/CMakeFiles/tempered-shared.dir/type_hid/si7005.c.o
 .PHONY : type_hid/si7005.c.o
 
 type_hid/si7005.i: type_hid/si7005.c.i
@@ -314,7 +314,7 @@ type_hid/si7005.i: type_hid/si7005.c.i
 
 # target to preprocess a source file
 type_hid/si7005.c.i:
-	cd /home/downloads/TEMPered && $(MAKE) -f libtempered/CMakeFiles/tempered-shared.dir/build.make libtempered/CMakeFiles/tempered-shared.dir/type_hid/si7005.c.i
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f libtempered/CMakeFiles/tempered-shared.dir/build.make libtempered/CMakeFiles/tempered-shared.dir/type_hid/si7005.c.i
 .PHONY : type_hid/si7005.c.i
 
 type_hid/si7005.s: type_hid/si7005.c.s
@@ -322,7 +322,7 @@ type_hid/si7005.s: type_hid/si7005.c.s
 
 # target to generate assembly for a file
 type_hid/si7005.c.s:
-	cd /home/downloads/TEMPered && $(MAKE) -f libtempered/CMakeFiles/tempered-shared.dir/build.make libtempered/CMakeFiles/tempered-shared.dir/type_hid/si7005.c.s
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f libtempered/CMakeFiles/tempered-shared.dir/build.make libtempered/CMakeFiles/tempered-shared.dir/type_hid/si7005.c.s
 .PHONY : type_hid/si7005.c.s
 
 type_hid/si7006.o: type_hid/si7006.c.o
@@ -330,7 +330,7 @@ type_hid/si7006.o: type_hid/si7006.c.o
 
 # target to build an object file
 type_hid/si7006.c.o:
-	cd /home/downloads/TEMPered && $(MAKE) -f libtempered/CMakeFiles/tempered-shared.dir/build.make libtempered/CMakeFiles/tempered-shared.dir/type_hid/si7006.c.o
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f libtempered/CMakeFiles/tempered-shared.dir/build.make libtempered/CMakeFiles/tempered-shared.dir/type_hid/si7006.c.o
 .PHONY : type_hid/si7006.c.o
 
 type_hid/si7006.i: type_hid/si7006.c.i
@@ -338,7 +338,7 @@ type_hid/si7006.i: type_hid/si7006.c.i
 
 # target to preprocess a source file
 type_hid/si7006.c.i:
-	cd /home/downloads/TEMPered && $(MAKE) -f libtempered/CMakeFiles/tempered-shared.dir/build.make libtempered/CMakeFiles/tempered-shared.dir/type_hid/si7006.c.i
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f libtempered/CMakeFiles/tempered-shared.dir/build.make libtempered/CMakeFiles/tempered-shared.dir/type_hid/si7006.c.i
 .PHONY : type_hid/si7006.c.i
 
 type_hid/si7006.s: type_hid/si7006.c.s
@@ -346,7 +346,7 @@ type_hid/si7006.s: type_hid/si7006.c.s
 
 # target to generate assembly for a file
 type_hid/si7006.c.s:
-	cd /home/downloads/TEMPered && $(MAKE) -f libtempered/CMakeFiles/tempered-shared.dir/build.make libtempered/CMakeFiles/tempered-shared.dir/type_hid/si7006.c.s
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f libtempered/CMakeFiles/tempered-shared.dir/build.make libtempered/CMakeFiles/tempered-shared.dir/type_hid/si7006.c.s
 .PHONY : type_hid/si7006.c.s
 
 type_hid/si7021.o: type_hid/si7021.c.o
@@ -354,7 +354,7 @@ type_hid/si7021.o: type_hid/si7021.c.o
 
 # target to build an object file
 type_hid/si7021.c.o:
-	cd /home/downloads/TEMPered && $(MAKE) -f libtempered/CMakeFiles/tempered-shared.dir/build.make libtempered/CMakeFiles/tempered-shared.dir/type_hid/si7021.c.o
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f libtempered/CMakeFiles/tempered-shared.dir/build.make libtempered/CMakeFiles/tempered-shared.dir/type_hid/si7021.c.o
 .PHONY : type_hid/si7021.c.o
 
 type_hid/si7021.i: type_hid/si7021.c.i
@@ -362,7 +362,7 @@ type_hid/si7021.i: type_hid/si7021.c.i
 
 # target to preprocess a source file
 type_hid/si7021.c.i:
-	cd /home/downloads/TEMPered && $(MAKE) -f libtempered/CMakeFiles/tempered-shared.dir/build.make libtempered/CMakeFiles/tempered-shared.dir/type_hid/si7021.c.i
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f libtempered/CMakeFiles/tempered-shared.dir/build.make libtempered/CMakeFiles/tempered-shared.dir/type_hid/si7021.c.i
 .PHONY : type_hid/si7021.c.i
 
 type_hid/si7021.s: type_hid/si7021.c.s
@@ -370,7 +370,7 @@ type_hid/si7021.s: type_hid/si7021.c.s
 
 # target to generate assembly for a file
 type_hid/si7021.c.s:
-	cd /home/downloads/TEMPered && $(MAKE) -f libtempered/CMakeFiles/tempered-shared.dir/build.make libtempered/CMakeFiles/tempered-shared.dir/type_hid/si7021.c.s
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f libtempered/CMakeFiles/tempered-shared.dir/build.make libtempered/CMakeFiles/tempered-shared.dir/type_hid/si7021.c.s
 .PHONY : type_hid/si7021.c.s
 
 # Help Target
@@ -424,6 +424,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/downloads/TEMPered && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /opt/PCsensor/TEMPered && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

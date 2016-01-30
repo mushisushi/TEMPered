@@ -46,7 +46,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/downloads/TEMPered
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/downloads/TEMPered
+CMAKE_BINARY_DIR = /opt/PCsensor/TEMPered
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -114,14 +114,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/downloads/TEMPered && $(CMAKE_COMMAND) -E cmake_progress_start /home/downloads/TEMPered/CMakeFiles /home/downloads/TEMPered/utils/CMakeFiles/progress.marks
-	cd /home/downloads/TEMPered && $(MAKE) -f CMakeFiles/Makefile2 utils/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/downloads/TEMPered/CMakeFiles 0
+	cd /opt/PCsensor/TEMPered && $(CMAKE_COMMAND) -E cmake_progress_start /opt/PCsensor/TEMPered/CMakeFiles /opt/PCsensor/TEMPered/utils/CMakeFiles/progress.marks
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f CMakeFiles/Makefile2 utils/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /opt/PCsensor/TEMPered/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/downloads/TEMPered && $(MAKE) -f CMakeFiles/Makefile2 utils/clean
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f CMakeFiles/Makefile2 utils/clean
 .PHONY : clean
 
 # The main clean target
@@ -130,22 +130,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/downloads/TEMPered && $(MAKE) -f CMakeFiles/Makefile2 utils/preinstall
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f CMakeFiles/Makefile2 utils/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/downloads/TEMPered && $(MAKE) -f CMakeFiles/Makefile2 utils/preinstall
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f CMakeFiles/Makefile2 utils/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/downloads/TEMPered && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /opt/PCsensor/TEMPered && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 utils/CMakeFiles/hid-query.dir/rule:
-	cd /home/downloads/TEMPered && $(MAKE) -f CMakeFiles/Makefile2 utils/CMakeFiles/hid-query.dir/rule
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f CMakeFiles/Makefile2 utils/CMakeFiles/hid-query.dir/rule
 .PHONY : utils/CMakeFiles/hid-query.dir/rule
 
 # Convenience name for target.
@@ -154,12 +154,12 @@ hid-query: utils/CMakeFiles/hid-query.dir/rule
 
 # fast build rule for target.
 hid-query/fast:
-	cd /home/downloads/TEMPered && $(MAKE) -f utils/CMakeFiles/hid-query.dir/build.make utils/CMakeFiles/hid-query.dir/build
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f utils/CMakeFiles/hid-query.dir/build.make utils/CMakeFiles/hid-query.dir/build
 .PHONY : hid-query/fast
 
 # Convenience name for target.
 utils/CMakeFiles/tempered-exe.dir/rule:
-	cd /home/downloads/TEMPered && $(MAKE) -f CMakeFiles/Makefile2 utils/CMakeFiles/tempered-exe.dir/rule
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f CMakeFiles/Makefile2 utils/CMakeFiles/tempered-exe.dir/rule
 .PHONY : utils/CMakeFiles/tempered-exe.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ tempered-exe: utils/CMakeFiles/tempered-exe.dir/rule
 
 # fast build rule for target.
 tempered-exe/fast:
-	cd /home/downloads/TEMPered && $(MAKE) -f utils/CMakeFiles/tempered-exe.dir/build.make utils/CMakeFiles/tempered-exe.dir/build
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f utils/CMakeFiles/tempered-exe.dir/build.make utils/CMakeFiles/tempered-exe.dir/build
 .PHONY : tempered-exe/fast
 
 hid-query.o: hid-query.c.o
@@ -176,7 +176,7 @@ hid-query.o: hid-query.c.o
 
 # target to build an object file
 hid-query.c.o:
-	cd /home/downloads/TEMPered && $(MAKE) -f utils/CMakeFiles/hid-query.dir/build.make utils/CMakeFiles/hid-query.dir/hid-query.c.o
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f utils/CMakeFiles/hid-query.dir/build.make utils/CMakeFiles/hid-query.dir/hid-query.c.o
 .PHONY : hid-query.c.o
 
 hid-query.i: hid-query.c.i
@@ -184,7 +184,7 @@ hid-query.i: hid-query.c.i
 
 # target to preprocess a source file
 hid-query.c.i:
-	cd /home/downloads/TEMPered && $(MAKE) -f utils/CMakeFiles/hid-query.dir/build.make utils/CMakeFiles/hid-query.dir/hid-query.c.i
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f utils/CMakeFiles/hid-query.dir/build.make utils/CMakeFiles/hid-query.dir/hid-query.c.i
 .PHONY : hid-query.c.i
 
 hid-query.s: hid-query.c.s
@@ -192,7 +192,7 @@ hid-query.s: hid-query.c.s
 
 # target to generate assembly for a file
 hid-query.c.s:
-	cd /home/downloads/TEMPered && $(MAKE) -f utils/CMakeFiles/hid-query.dir/build.make utils/CMakeFiles/hid-query.dir/hid-query.c.s
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f utils/CMakeFiles/hid-query.dir/build.make utils/CMakeFiles/hid-query.dir/hid-query.c.s
 .PHONY : hid-query.c.s
 
 tempered.o: tempered.c.o
@@ -200,7 +200,7 @@ tempered.o: tempered.c.o
 
 # target to build an object file
 tempered.c.o:
-	cd /home/downloads/TEMPered && $(MAKE) -f utils/CMakeFiles/tempered-exe.dir/build.make utils/CMakeFiles/tempered-exe.dir/tempered.c.o
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f utils/CMakeFiles/tempered-exe.dir/build.make utils/CMakeFiles/tempered-exe.dir/tempered.c.o
 .PHONY : tempered.c.o
 
 tempered.i: tempered.c.i
@@ -208,7 +208,7 @@ tempered.i: tempered.c.i
 
 # target to preprocess a source file
 tempered.c.i:
-	cd /home/downloads/TEMPered && $(MAKE) -f utils/CMakeFiles/tempered-exe.dir/build.make utils/CMakeFiles/tempered-exe.dir/tempered.c.i
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f utils/CMakeFiles/tempered-exe.dir/build.make utils/CMakeFiles/tempered-exe.dir/tempered.c.i
 .PHONY : tempered.c.i
 
 tempered.s: tempered.c.s
@@ -216,7 +216,7 @@ tempered.s: tempered.c.s
 
 # target to generate assembly for a file
 tempered.c.s:
-	cd /home/downloads/TEMPered && $(MAKE) -f utils/CMakeFiles/tempered-exe.dir/build.make utils/CMakeFiles/tempered-exe.dir/tempered.c.s
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f utils/CMakeFiles/tempered-exe.dir/build.make utils/CMakeFiles/tempered-exe.dir/tempered.c.s
 .PHONY : tempered.c.s
 
 # Help Target
@@ -250,6 +250,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/downloads/TEMPered && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /opt/PCsensor/TEMPered && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

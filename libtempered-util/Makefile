@@ -46,7 +46,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/downloads/TEMPered
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/downloads/TEMPered
+CMAKE_BINARY_DIR = /opt/PCsensor/TEMPered
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -114,14 +114,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/downloads/TEMPered && $(CMAKE_COMMAND) -E cmake_progress_start /home/downloads/TEMPered/CMakeFiles /home/downloads/TEMPered/libtempered-util/CMakeFiles/progress.marks
-	cd /home/downloads/TEMPered && $(MAKE) -f CMakeFiles/Makefile2 libtempered-util/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/downloads/TEMPered/CMakeFiles 0
+	cd /opt/PCsensor/TEMPered && $(CMAKE_COMMAND) -E cmake_progress_start /opt/PCsensor/TEMPered/CMakeFiles /opt/PCsensor/TEMPered/libtempered-util/CMakeFiles/progress.marks
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f CMakeFiles/Makefile2 libtempered-util/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /opt/PCsensor/TEMPered/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/downloads/TEMPered && $(MAKE) -f CMakeFiles/Makefile2 libtempered-util/clean
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f CMakeFiles/Makefile2 libtempered-util/clean
 .PHONY : clean
 
 # The main clean target
@@ -130,22 +130,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/downloads/TEMPered && $(MAKE) -f CMakeFiles/Makefile2 libtempered-util/preinstall
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f CMakeFiles/Makefile2 libtempered-util/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/downloads/TEMPered && $(MAKE) -f CMakeFiles/Makefile2 libtempered-util/preinstall
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f CMakeFiles/Makefile2 libtempered-util/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/downloads/TEMPered && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /opt/PCsensor/TEMPered && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 libtempered-util/CMakeFiles/tempered-util-shared.dir/rule:
-	cd /home/downloads/TEMPered && $(MAKE) -f CMakeFiles/Makefile2 libtempered-util/CMakeFiles/tempered-util-shared.dir/rule
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f CMakeFiles/Makefile2 libtempered-util/CMakeFiles/tempered-util-shared.dir/rule
 .PHONY : libtempered-util/CMakeFiles/tempered-util-shared.dir/rule
 
 # Convenience name for target.
@@ -154,7 +154,7 @@ tempered-util-shared: libtempered-util/CMakeFiles/tempered-util-shared.dir/rule
 
 # fast build rule for target.
 tempered-util-shared/fast:
-	cd /home/downloads/TEMPered && $(MAKE) -f libtempered-util/CMakeFiles/tempered-util-shared.dir/build.make libtempered-util/CMakeFiles/tempered-util-shared.dir/build
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f libtempered-util/CMakeFiles/tempered-util-shared.dir/build.make libtempered-util/CMakeFiles/tempered-util-shared.dir/build
 .PHONY : tempered-util-shared/fast
 
 calibration.o: calibration.c.o
@@ -162,7 +162,7 @@ calibration.o: calibration.c.o
 
 # target to build an object file
 calibration.c.o:
-	cd /home/downloads/TEMPered && $(MAKE) -f libtempered-util/CMakeFiles/tempered-util-shared.dir/build.make libtempered-util/CMakeFiles/tempered-util-shared.dir/calibration.c.o
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f libtempered-util/CMakeFiles/tempered-util-shared.dir/build.make libtempered-util/CMakeFiles/tempered-util-shared.dir/calibration.c.o
 .PHONY : calibration.c.o
 
 calibration.i: calibration.c.i
@@ -170,7 +170,7 @@ calibration.i: calibration.c.i
 
 # target to preprocess a source file
 calibration.c.i:
-	cd /home/downloads/TEMPered && $(MAKE) -f libtempered-util/CMakeFiles/tempered-util-shared.dir/build.make libtempered-util/CMakeFiles/tempered-util-shared.dir/calibration.c.i
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f libtempered-util/CMakeFiles/tempered-util-shared.dir/build.make libtempered-util/CMakeFiles/tempered-util-shared.dir/calibration.c.i
 .PHONY : calibration.c.i
 
 calibration.s: calibration.c.s
@@ -178,7 +178,7 @@ calibration.s: calibration.c.s
 
 # target to generate assembly for a file
 calibration.c.s:
-	cd /home/downloads/TEMPered && $(MAKE) -f libtempered-util/CMakeFiles/tempered-util-shared.dir/build.make libtempered-util/CMakeFiles/tempered-util-shared.dir/calibration.c.s
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f libtempered-util/CMakeFiles/tempered-util-shared.dir/build.make libtempered-util/CMakeFiles/tempered-util-shared.dir/calibration.c.s
 .PHONY : calibration.c.s
 
 dew-point.o: dew-point.c.o
@@ -186,7 +186,7 @@ dew-point.o: dew-point.c.o
 
 # target to build an object file
 dew-point.c.o:
-	cd /home/downloads/TEMPered && $(MAKE) -f libtempered-util/CMakeFiles/tempered-util-shared.dir/build.make libtempered-util/CMakeFiles/tempered-util-shared.dir/dew-point.c.o
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f libtempered-util/CMakeFiles/tempered-util-shared.dir/build.make libtempered-util/CMakeFiles/tempered-util-shared.dir/dew-point.c.o
 .PHONY : dew-point.c.o
 
 dew-point.i: dew-point.c.i
@@ -194,7 +194,7 @@ dew-point.i: dew-point.c.i
 
 # target to preprocess a source file
 dew-point.c.i:
-	cd /home/downloads/TEMPered && $(MAKE) -f libtempered-util/CMakeFiles/tempered-util-shared.dir/build.make libtempered-util/CMakeFiles/tempered-util-shared.dir/dew-point.c.i
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f libtempered-util/CMakeFiles/tempered-util-shared.dir/build.make libtempered-util/CMakeFiles/tempered-util-shared.dir/dew-point.c.i
 .PHONY : dew-point.c.i
 
 dew-point.s: dew-point.c.s
@@ -202,7 +202,7 @@ dew-point.s: dew-point.c.s
 
 # target to generate assembly for a file
 dew-point.c.s:
-	cd /home/downloads/TEMPered && $(MAKE) -f libtempered-util/CMakeFiles/tempered-util-shared.dir/build.make libtempered-util/CMakeFiles/tempered-util-shared.dir/dew-point.c.s
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f libtempered-util/CMakeFiles/tempered-util-shared.dir/build.make libtempered-util/CMakeFiles/tempered-util-shared.dir/dew-point.c.s
 .PHONY : dew-point.c.s
 
 temp-scale.o: temp-scale.c.o
@@ -210,7 +210,7 @@ temp-scale.o: temp-scale.c.o
 
 # target to build an object file
 temp-scale.c.o:
-	cd /home/downloads/TEMPered && $(MAKE) -f libtempered-util/CMakeFiles/tempered-util-shared.dir/build.make libtempered-util/CMakeFiles/tempered-util-shared.dir/temp-scale.c.o
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f libtempered-util/CMakeFiles/tempered-util-shared.dir/build.make libtempered-util/CMakeFiles/tempered-util-shared.dir/temp-scale.c.o
 .PHONY : temp-scale.c.o
 
 temp-scale.i: temp-scale.c.i
@@ -218,7 +218,7 @@ temp-scale.i: temp-scale.c.i
 
 # target to preprocess a source file
 temp-scale.c.i:
-	cd /home/downloads/TEMPered && $(MAKE) -f libtempered-util/CMakeFiles/tempered-util-shared.dir/build.make libtempered-util/CMakeFiles/tempered-util-shared.dir/temp-scale.c.i
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f libtempered-util/CMakeFiles/tempered-util-shared.dir/build.make libtempered-util/CMakeFiles/tempered-util-shared.dir/temp-scale.c.i
 .PHONY : temp-scale.c.i
 
 temp-scale.s: temp-scale.c.s
@@ -226,7 +226,7 @@ temp-scale.s: temp-scale.c.s
 
 # target to generate assembly for a file
 temp-scale.c.s:
-	cd /home/downloads/TEMPered && $(MAKE) -f libtempered-util/CMakeFiles/tempered-util-shared.dir/build.make libtempered-util/CMakeFiles/tempered-util-shared.dir/temp-scale.c.s
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f libtempered-util/CMakeFiles/tempered-util-shared.dir/build.make libtempered-util/CMakeFiles/tempered-util-shared.dir/temp-scale.c.s
 .PHONY : temp-scale.c.s
 
 # Help Target
@@ -262,6 +262,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/downloads/TEMPered && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /opt/PCsensor/TEMPered && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

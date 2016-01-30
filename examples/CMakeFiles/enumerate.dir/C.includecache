@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
+/home/downloads/TEMPered/examples/../libtempered/tempered.h
+stdbool.h
+-
+
 /home/downloads/TEMPered/examples/enumerate.c
 stdlib.h
 -
 stdio.h
 -
 tempered.h
--
-
-examples/../libtempered/tempered.h
-stdbool.h
 -
 

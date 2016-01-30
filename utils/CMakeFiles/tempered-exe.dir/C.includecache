@@ -6,6 +6,14 @@
 
 #IncludeRegexTransform: 
 
+/home/downloads/TEMPered/utils/../libtempered-util/tempered-util.h
+stdbool.h
+-
+
+/home/downloads/TEMPered/utils/../libtempered/tempered.h
+stdbool.h
+-
+
 /home/downloads/TEMPered/utils/tempered.c
 stdlib.h
 -
@@ -18,13 +26,5 @@ tempered.h
 getopt.h
 -
 tempered-util.h
--
-
-utils/../libtempered-util/tempered-util.h
-stdbool.h
--
-
-utils/../libtempered/tempered.h
-stdbool.h
 -
 

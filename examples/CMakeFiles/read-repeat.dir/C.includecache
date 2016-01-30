@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/home/downloads/TEMPered/examples/../libtempered/tempered.h
+stdbool.h
+-
+
 /home/downloads/TEMPered/examples/read-repeat.c
 stdlib.h
 -
@@ -16,9 +20,5 @@ unistd.h
 string.h
 -
 tempered.h
--
-
-examples/../libtempered/tempered.h
-stdbool.h
 -
 

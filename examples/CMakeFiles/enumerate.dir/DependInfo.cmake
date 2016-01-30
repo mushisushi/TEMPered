@@ -4,19 +4,19 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/downloads/TEMPered/examples/enumerate.c" "/home/downloads/TEMPered/examples/CMakeFiles/enumerate.dir/enumerate.c.o"
+  "/home/downloads/TEMPered/examples/enumerate.c" "/opt/PCsensor/TEMPered/examples/CMakeFiles/enumerate.dir/enumerate.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/downloads/TEMPered/libtempered/CMakeFiles/tempered-shared.dir/DependInfo.cmake"
+  "/opt/PCsensor/TEMPered/libtempered/CMakeFiles/tempered-shared.dir/DependInfo.cmake"
   )
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "/usr/local/include/hidapi"
-  "examples/../libtempered"
+  "/home/downloads/TEMPered/examples/../libtempered"
   )
 set(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
 set(CMAKE_Fortran_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})

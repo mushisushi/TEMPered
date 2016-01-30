@@ -1,7 +1,0 @@
-/home/downloads/TEMPered/examples/CMakeFiles/enumerate.dir
-/home/downloads/TEMPered/utils/CMakeFiles/hid-query.dir
-/home/downloads/TEMPered/examples/CMakeFiles/read-all.dir
-/home/downloads/TEMPered/examples/CMakeFiles/read-repeat.dir
-/home/downloads/TEMPered/utils/CMakeFiles/tempered-exe.dir
-/home/downloads/TEMPered/libtempered/CMakeFiles/tempered-shared.dir
-/home/downloads/TEMPered/libtempered-util/CMakeFiles/tempered-util-shared.dir

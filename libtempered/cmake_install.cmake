@@ -49,8 +49,8 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     endif()
   endforeach()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES
-    "/home/downloads/TEMPered/libtempered/libtempered.so.0"
-    "/home/downloads/TEMPered/libtempered/libtempered.so"
+    "/opt/PCsensor/TEMPered/libtempered/libtempered.so.0"
+    "/opt/PCsensor/TEMPered/libtempered/libtempered.so"
     )
   foreach(file
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libtempered.so.0"

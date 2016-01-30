@@ -46,7 +46,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/downloads/TEMPered
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/downloads/TEMPered
+CMAKE_BINARY_DIR = /opt/PCsensor/TEMPered
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -114,14 +114,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/downloads/TEMPered && $(CMAKE_COMMAND) -E cmake_progress_start /home/downloads/TEMPered/CMakeFiles /home/downloads/TEMPered/examples/CMakeFiles/progress.marks
-	cd /home/downloads/TEMPered && $(MAKE) -f CMakeFiles/Makefile2 examples/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/downloads/TEMPered/CMakeFiles 0
+	cd /opt/PCsensor/TEMPered && $(CMAKE_COMMAND) -E cmake_progress_start /opt/PCsensor/TEMPered/CMakeFiles /opt/PCsensor/TEMPered/examples/CMakeFiles/progress.marks
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f CMakeFiles/Makefile2 examples/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /opt/PCsensor/TEMPered/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/downloads/TEMPered && $(MAKE) -f CMakeFiles/Makefile2 examples/clean
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f CMakeFiles/Makefile2 examples/clean
 .PHONY : clean
 
 # The main clean target
@@ -130,22 +130,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/downloads/TEMPered && $(MAKE) -f CMakeFiles/Makefile2 examples/preinstall
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f CMakeFiles/Makefile2 examples/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/downloads/TEMPered && $(MAKE) -f CMakeFiles/Makefile2 examples/preinstall
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f CMakeFiles/Makefile2 examples/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/downloads/TEMPered && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /opt/PCsensor/TEMPered && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 examples/CMakeFiles/enumerate.dir/rule:
-	cd /home/downloads/TEMPered && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/enumerate.dir/rule
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/enumerate.dir/rule
 .PHONY : examples/CMakeFiles/enumerate.dir/rule
 
 # Convenience name for target.
@@ -154,12 +154,12 @@ enumerate: examples/CMakeFiles/enumerate.dir/rule
 
 # fast build rule for target.
 enumerate/fast:
-	cd /home/downloads/TEMPered && $(MAKE) -f examples/CMakeFiles/enumerate.dir/build.make examples/CMakeFiles/enumerate.dir/build
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f examples/CMakeFiles/enumerate.dir/build.make examples/CMakeFiles/enumerate.dir/build
 .PHONY : enumerate/fast
 
 # Convenience name for target.
 examples/CMakeFiles/read-all.dir/rule:
-	cd /home/downloads/TEMPered && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/read-all.dir/rule
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/read-all.dir/rule
 .PHONY : examples/CMakeFiles/read-all.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ read-all: examples/CMakeFiles/read-all.dir/rule
 
 # fast build rule for target.
 read-all/fast:
-	cd /home/downloads/TEMPered && $(MAKE) -f examples/CMakeFiles/read-all.dir/build.make examples/CMakeFiles/read-all.dir/build
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f examples/CMakeFiles/read-all.dir/build.make examples/CMakeFiles/read-all.dir/build
 .PHONY : read-all/fast
 
 # Convenience name for target.
 examples/CMakeFiles/read-repeat.dir/rule:
-	cd /home/downloads/TEMPered && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/read-repeat.dir/rule
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/read-repeat.dir/rule
 .PHONY : examples/CMakeFiles/read-repeat.dir/rule
 
 # Convenience name for target.
@@ -182,7 +182,7 @@ read-repeat: examples/CMakeFiles/read-repeat.dir/rule
 
 # fast build rule for target.
 read-repeat/fast:
-	cd /home/downloads/TEMPered && $(MAKE) -f examples/CMakeFiles/read-repeat.dir/build.make examples/CMakeFiles/read-repeat.dir/build
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f examples/CMakeFiles/read-repeat.dir/build.make examples/CMakeFiles/read-repeat.dir/build
 .PHONY : read-repeat/fast
 
 enumerate.o: enumerate.c.o
@@ -190,7 +190,7 @@ enumerate.o: enumerate.c.o
 
 # target to build an object file
 enumerate.c.o:
-	cd /home/downloads/TEMPered && $(MAKE) -f examples/CMakeFiles/enumerate.dir/build.make examples/CMakeFiles/enumerate.dir/enumerate.c.o
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f examples/CMakeFiles/enumerate.dir/build.make examples/CMakeFiles/enumerate.dir/enumerate.c.o
 .PHONY : enumerate.c.o
 
 enumerate.i: enumerate.c.i
@@ -198,7 +198,7 @@ enumerate.i: enumerate.c.i
 
 # target to preprocess a source file
 enumerate.c.i:
-	cd /home/downloads/TEMPered && $(MAKE) -f examples/CMakeFiles/enumerate.dir/build.make examples/CMakeFiles/enumerate.dir/enumerate.c.i
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f examples/CMakeFiles/enumerate.dir/build.make examples/CMakeFiles/enumerate.dir/enumerate.c.i
 .PHONY : enumerate.c.i
 
 enumerate.s: enumerate.c.s
@@ -206,7 +206,7 @@ enumerate.s: enumerate.c.s
 
 # target to generate assembly for a file
 enumerate.c.s:
-	cd /home/downloads/TEMPered && $(MAKE) -f examples/CMakeFiles/enumerate.dir/build.make examples/CMakeFiles/enumerate.dir/enumerate.c.s
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f examples/CMakeFiles/enumerate.dir/build.make examples/CMakeFiles/enumerate.dir/enumerate.c.s
 .PHONY : enumerate.c.s
 
 read-all.o: read-all.c.o
@@ -214,7 +214,7 @@ read-all.o: read-all.c.o
 
 # target to build an object file
 read-all.c.o:
-	cd /home/downloads/TEMPered && $(MAKE) -f examples/CMakeFiles/read-all.dir/build.make examples/CMakeFiles/read-all.dir/read-all.c.o
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f examples/CMakeFiles/read-all.dir/build.make examples/CMakeFiles/read-all.dir/read-all.c.o
 .PHONY : read-all.c.o
 
 read-all.i: read-all.c.i
@@ -222,7 +222,7 @@ read-all.i: read-all.c.i
 
 # target to preprocess a source file
 read-all.c.i:
-	cd /home/downloads/TEMPered && $(MAKE) -f examples/CMakeFiles/read-all.dir/build.make examples/CMakeFiles/read-all.dir/read-all.c.i
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f examples/CMakeFiles/read-all.dir/build.make examples/CMakeFiles/read-all.dir/read-all.c.i
 .PHONY : read-all.c.i
 
 read-all.s: read-all.c.s
@@ -230,7 +230,7 @@ read-all.s: read-all.c.s
 
 # target to generate assembly for a file
 read-all.c.s:
-	cd /home/downloads/TEMPered && $(MAKE) -f examples/CMakeFiles/read-all.dir/build.make examples/CMakeFiles/read-all.dir/read-all.c.s
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f examples/CMakeFiles/read-all.dir/build.make examples/CMakeFiles/read-all.dir/read-all.c.s
 .PHONY : read-all.c.s
 
 read-repeat.o: read-repeat.c.o
@@ -238,7 +238,7 @@ read-repeat.o: read-repeat.c.o
 
 # target to build an object file
 read-repeat.c.o:
-	cd /home/downloads/TEMPered && $(MAKE) -f examples/CMakeFiles/read-repeat.dir/build.make examples/CMakeFiles/read-repeat.dir/read-repeat.c.o
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f examples/CMakeFiles/read-repeat.dir/build.make examples/CMakeFiles/read-repeat.dir/read-repeat.c.o
 .PHONY : read-repeat.c.o
 
 read-repeat.i: read-repeat.c.i
@@ -246,7 +246,7 @@ read-repeat.i: read-repeat.c.i
 
 # target to preprocess a source file
 read-repeat.c.i:
-	cd /home/downloads/TEMPered && $(MAKE) -f examples/CMakeFiles/read-repeat.dir/build.make examples/CMakeFiles/read-repeat.dir/read-repeat.c.i
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f examples/CMakeFiles/read-repeat.dir/build.make examples/CMakeFiles/read-repeat.dir/read-repeat.c.i
 .PHONY : read-repeat.c.i
 
 read-repeat.s: read-repeat.c.s
@@ -254,7 +254,7 @@ read-repeat.s: read-repeat.c.s
 
 # target to generate assembly for a file
 read-repeat.c.s:
-	cd /home/downloads/TEMPered && $(MAKE) -f examples/CMakeFiles/read-repeat.dir/build.make examples/CMakeFiles/read-repeat.dir/read-repeat.c.s
+	cd /opt/PCsensor/TEMPered && $(MAKE) -f examples/CMakeFiles/read-repeat.dir/build.make examples/CMakeFiles/read-repeat.dir/read-repeat.c.s
 .PHONY : read-repeat.c.s
 
 # Help Target
@@ -292,6 +292,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/downloads/TEMPered && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /opt/PCsensor/TEMPered && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
